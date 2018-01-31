@@ -10,8 +10,8 @@ To tool around with the app directly, here's a quickstart guide.
 
 Clone this repo to your local machine. In the top level directory, create a virtual environment:
 ```
-$ virtualenv flask-aws
-$ source flask-aws/bin/activate
+$ conda create -n flask-aws python=2.7
+$ source activate flask-aws
 ```
 Now install the required modules:
 ```
